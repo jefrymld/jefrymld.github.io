@@ -1,0 +1,25 @@
+<?php
+include 'conexion.php';
+$nombre = $_POST['Nombres_cont'];
+$apellido = $_POST['Apellidos_cont'];
+$cedula = $_POST['Cedula_NIT_cont'];
+$email = $_POST['Correo_cont'];
+$telefono = $_POST['Télefono_cont'];
+$mensaje = $_POST['Mensaje_cont'];
+
+$insertar = "INSERT INTO contactenos(Nombres_cont, Apellidos_cont, Cedula_NIT_cont, Correo_cont, Télefono_cont, Mensaje_cont) 
+VALUES ('$nombre', '$apellido', '$cedula', '$email', '$telefono', '$mensaje')";
+
+$prueba = mysqli_query($conection, $insertar);
+if (!$prueba) {
+    echo  'error';
+   
+} else {
+    
+    echo "<script>window.location='enviado.php'</script>";
+}
+
+ mysqli_close($conection);
+ ?>
+
+ 

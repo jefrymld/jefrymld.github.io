@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>¿Quiénes somos?</title>
+    <!-- Aqui se vincularan las librerias necesarias para las animaciones -->
+    <link rel="stylesheet" href="CSS/estilo_quienes_somos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+    <!-- Cabecera -->
+
+        <nav>
+
+        <!-- Se crea la clase contenedor nav que contendra el logo y los titulos de cada pestaña --> 
+
+            <section class="contenedor nav">
+                <div class="logo">
+                    <!--Logo de Medical Web-->
+                    <img src="images/Logo.png" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <!--Titulos de cada pestaña-->
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="contactenos.html">Contactenos</a>
+                    <!--Login para ingresar al sistema-->
+                    <a id="ingresar" href="sistema_roles/login_usu.html">Registrarse</a>
+                </div>
+
+                <!-- Se crea la clase hamburguer que contendra el boton del menú al momento de que la pagina
+                sea vista desde un dispositivo mobil -->
+
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+
+        <!-- Se crea la clase contenedor que contendra el titulo y la descripción de la pagina y el boton de
+        leer más -->
+
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>¿Quiénes Somos? </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nisi. Facilis, sed modi saepe id nostrum dolor, quae aliquam nemo reprehenderit cumque amet eveniet velit mollitia asperiores culpa quidem neque!.</p>
+                    <a href="#port">Leer más</a>
+                </section>
+                <img src="images/undraw_faq_rjoy.svg" alt="">
+            </section>
+        </div>
+    </header>
+
+    <!-- Aquí se creara la clase about-us (acerca de) que contendra nuestros servicios, atencion al cliente 
+    y nuestro equipo de trabajo --> 
+
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 id="port" class="titulo">Medical Web</h2>
+            <div  class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-cog"></i>
+                    <h3>Los mejores servicios</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                        <a id="leer" href="servicios.html">Leer más...</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-comments"></i>
+                    <h3>La mejor atención</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                        <a id="leer" href="contactenos.html">Leer más...</a>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-users"></i>
+                    <h3>El mejor equipo de trabajo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                        <a id="leer" href="Quienes_somos.html">Leer más...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aquí se creara la clase about-us (acerca de) que contendra nuetra misión, visión y objetivos --> 
+
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 id="port" class="titulo">Misión,Visión y Objetivo</h2>
+            <div  class="contenedor-articulo">
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Misión</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-eye"></i>
+                    <h3>Visión</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                </div>
+                <div class="articulo" data-aos="zoom-in-right">
+                    <i class="fas fa-flag-checkered"></i>
+                    <h3>Objetivo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime eius quo
+                        consequuntur magni. Quis voluptate repudiandae soluta quod mollitia!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aquí se creara la clase results que contendra nuestros caracteristicas como empresa --> 
+
+    <section class="results">
+        <div class="contenedor1 conten-results">
+            <section class="numbers">
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Calidad</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi nihil unde.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Fiabilidad</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Resilencia</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id.</p>
+                </div>
+                <div class="number" data-aos="zoom-in-left">
+                    <h4>Dedicación</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id.</p>
+                </div>
+            </section>
+            <section class="results-text">
+                <h4>En Medical Web nos caracterisa:</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet sequi nihil unde.</p>
+            </section>
+        </div>
+    </section>
+
+    <!-- Aquí se creara la clase questions contenedor que tendrá estilo similar al de la cabecera, tendra un botón 
+    que redireccionará a la pestaña de servicios --> 
+
+    <section class="questions contenedor">
+    <section class="textos-questions">
+    <h1>Servicios de calidad.</h1>
+    <a href="servicios.html">Conocelos</a>
+    </section>
+    <img src="images/undraw_server_down_s4lk.svg" alt="" data-aos="zoom-out-up" data-aos-duration="2000">
+    </section>
+
+     <!-- En el footer se creo la clase footer-disttributed que contendra las redes sociales de Medical Web
+     ademas del logo y las diferentes posibilades de contacto -->
+
+    <footer class="footer-distributed">
+ 
+        <div class="footer-left">
+      <img src="images/Logo.png">
+            <h3>About<span> Medical Web</span></h3>
+
+            <p class="footer-company-name">© 2023 Medical Web</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                  <p><span>Carrera 128 - Bogotá, Distrito Captila</span></p>
+            </div>
+
+            <div>
+                <i class="fas fa-phone-volume"></i>
+                <p>+57 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">medicalweb@medical.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Acerca de la compañia</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+     <!-- Aquí se contendran los scripts para las animaciones y algunos iconos -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

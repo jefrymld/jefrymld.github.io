@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacto</title>
+
+    <!-- Aqui se vincularan las librerias necesarias para las animaciones y algunos iconos-->
+
+    <link rel="stylesheet" href="css/estilos_contactenos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<body>
+    <header>
+
+    <!-- Cabecera -->
+
+        <nav>
+
+    <!-- Se crea la clase contenedor nav que contendra el logo y los titulos de cada pestaña --> 
+
+            <section class="contenedor nav">
+                <div class="logo">
+                    <!--Logo de Medical Web-->
+                    <img src="images/Logo.png" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <a href="index.html">Inicio</a>
+                    <a href="servicios.html">Servicios</a>
+                    <!-- <a href="Quienes_somos.html">¿Quiénes Somos?</a> -->
+                    <!--Login para ingresar al sistema-->
+                    <a id="ingresar" href="sistema_roles/login_usu.html">Registrarse</a>
+                 
+                
+                </div>
+                
+                <!-- Se crea la clase hamburguer que contendra el boton del menú al momento de que la pagina
+                sea vista desde un dispositivo mobil -->
+
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+
+        <!-- Se crea la clase contenedor que contendra el titulo y la descripción de la pagina y el boton de
+        leer más -->
+
+        <div class="contenedor">
+            <section class="contenido-header">
+                <section class="textos-header">
+                    <h1>Contactenos </h1>
+                    <p>Contacta con nosotros y recibiras una pronta respuesta.</p>
+                    <a href="#port">Leer más</a>
+                </section>
+                <img src="images/undraw_contact_us_15o2.svg" alt="">
+            </section>
+        </div>
+    </header>
+
+    <!-- En esta sección se crea la clase container_contacto donde se contendra el formulario de contacto -->
+    <div class="container_contacto">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+                <h2>Formulario de Contacto</h2>
+                <form action="contactenos_index.html" method="post">
+				<input type="text" name="Nombres_cont" class="field" placeholder="Nombres" required>
+                <input type="text" name="Apellidos_cont" class="field" placeholder="Apellidos" required>
+				<input type="text" name="Correo_cont" class="field" placeholder="Correo" required>
+				<input type="number" name="Télefono_cont" class="field" placeholder="Télefono" required>
+                <textarea name="Mensaje_cont" placeholder="Mensaje" class="field" required></textarea>
+                <!-- Botón de enviar con la clase btn -->
+				<button class="btn">Enviar</button>
+                </form>
+			</div>
+		</div>
+    </div>
+
+     <!-- En el footer se creo la clase footer-disttributed que contendra las redes sociales de Medical Web
+     ademas del logo y las diferentes posibilades de contacto -->
+
+    <footer class="footer-distributed">
+     
+     <!-- En esta sección se colocara el icono de Key Servioces con una pequeña descripción -->
+
+        <div class="footer-left">
+      <img src="images/Logo.png">
+            <h3>About<span> Medical Web</span></h3>
+
+            <p class="footer-company-name">© 2023 Medical Web</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                  <p><span>Carrera 128 - Bogotá, Distrito Captila</span></p>
+            </div>
+
+            <div>
+                <i class="fas fa-phone-volume"></i>
+                <p>+57 22-27782183</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">medicalweb@medical.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Acerca de la compañia</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Aquí se contendran los scripts para las animación del header -->
+
+<script src="js/jquery-3.4.1.min.js"></script>
+</body>
+</html>
